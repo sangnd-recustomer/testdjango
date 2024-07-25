@@ -1,0 +1,6 @@
+django==5.0.4
+requests==2.31.0
+mysqlclient==2.2.4
+python-dotenv
+boto3
+djangorestframework
