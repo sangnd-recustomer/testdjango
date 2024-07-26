@@ -4,3 +4,4 @@ mysqlclient==2.2.4
 python-dotenv
 boto3
 djangorestframework
+uwsgi

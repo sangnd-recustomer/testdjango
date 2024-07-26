@@ -23,3 +23,6 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 EXPOSE $PORT
+
+# CMD exec uwsgi --http :80 --module config.wsgi
+CMD [ "uwsgi", "--http", ":8000", "--module", "testdjango.wsgi" ]
